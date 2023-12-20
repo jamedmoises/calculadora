@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exterior{
+    width: 350px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 14px;
+}
+.pantalla{ 
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+#display{
+    font-size: 24px;
+    margin: 12px;
+}
+.botones{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.ocho{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.cuatro{
+    grid-row: 2/3;
+    grid-column:2/3 ;
+}
+.multiplicar{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.sumar{
+    grid-column: 1/2;
+    grid-row:4/5 ;
+}
+.restar{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.cinco{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.punto{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.borrar{
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.igual{
+    grid-row: 5/6;
+    grid-column: 1/5;
+}
+.cero{
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+.tres{
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+.dos{
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.uno{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.seis{
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+.nueve{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.siete{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+button{
+    font-size: 30px;
+    padding: 20px;
+}

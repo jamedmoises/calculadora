@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class=" exterior">
+        <div class="pantalla">
+            <input type="text" id="display" readonly>
+
+        </div>
+        <div class="botones">
+            <button class="borrar" onclick="borrar()">C</button>
+            <button class="dividir"onclick="escribir('/')">/</button>
+            <button class="sumar"onclick="escribir('+')">+</button>
+            <button class="restar"onclick="escribir('-')">-</button>
+            <button class="multiplicar" onclick="escribir('*')">*</button>
+            <button class="siete"onclick="escribir('7')">7</button>
+            <button class="ocho"onclick="escribir('8')">8</button>
+            <button class="nueve"onclick="escribir('9')">9</button>
+            <button class="cuatro"onclick="escribir('4')">4</button>
+            <button class="cinco"onclick="escribir('5')">5</button>
+            <button class="seis"onclick="escribir('6')">6</button>
+            <button class="uno"onclick="escribir('1')">1</button>
+            <button class="dos"onclick="escribir('2')">2</button>
+            <button class="tres"onclick="escribir('3')">3</button>
+            <button class="punto"onclick="escribir('.')">.</button>
+            <button class="cero"onclick="escribir('0')">0</button>
+            <button class="igual"onclick="calcular()">=</button>
+        </div>
+    </div>
+    
+    <script src="javascrip.js"></script>
+</body>
+</html>
